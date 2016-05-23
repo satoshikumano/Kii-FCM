@@ -17,7 +17,7 @@ And enter you Kii Cloud app information.
 - Enter Packagename, optional signing certificate.
 - Download config file (google-services.json) and place it in the root directory of the application.
 - Run app and login with existing user, send push notification from [Kii Developer Console](https://developer.kii.com).
-  App shows notification with laucher idon (dorid icon) when recieved push. 
+  App shows notification with laucher icon (dorid icon) when recieved push. 
 
 ## Start with FCM.
 - Sign up/in to Firebase.
@@ -31,7 +31,7 @@ And enter you Kii Cloud app information.
 - Save Server Key copied from Firebase console and as GCM Key in Notification settings.
   (Please see the [guide](http://docs.kii.com/en/samples/push-notifications/push-notifications-android/configure-devportal/) how to set GCM Key in Kii Cloud Console.
 - Run app and login with existing user, send push notification from [Kii Developer Console](https://developer.kii.com).
-  App shows notification with laucher idon (dorid icon) when recieved push. 
+  App shows notification with laucher icon (dorid icon) when recieved push. 
 
 ## Sample Code anatomy
 
