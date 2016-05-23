@@ -7,7 +7,8 @@ This Sample porject shows
 
 ## Preparation
 Edit [Config.java](app/src/main/java/example/com/kii/firebasestudy/Config.java)
-And enter you Kii Cloud app information. (App ID, App Key, Site can be confirmed on developer.kii.com.)
+And enter you Kii Cloud app information.
+(App ID, App Key, Site can be confirmed on [Kii Developer console](https://developer.kii.com).)
 
 ## Migration from GCM.
 - Sign up/in to Firebase.
