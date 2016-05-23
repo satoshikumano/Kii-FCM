@@ -33,7 +33,7 @@ And enter you Kii Cloud app information.
 - Run app and login with existing user, send push notification from [Kii Developer Console](https://developer.kii.com).
   App shows notification with laucher idon (dorid icon) when recieved push. 
 
-## Sample Code anantomy
+## Sample Code anatomy
 
 ### [MyFirebaseInstanceIdService](https://github.com/satoshikumano/Kii-FCM/blob/master/app/src/main/java/example/com/kii/firebasestudy/MyFirebaseInstanceIdService.java)
 
