@@ -23,7 +23,7 @@ public class MyFirebaseInstanceIdService extends FirebaseInstanceIdService {
         final SharedPreferences spf = this.getSharedPreferences("FCM", 0);
         spf.edit().putString("FCMToken", refreshedToken).apply();
 
-        Kii.initialize(this.getApplicationContext(), "9ab34d8b", "7a950d78956ed39f3b0815f0f001b43b", Kii.Site.JP);
+        Kii.initialize(this.getApplicationContext(), Config.APP_ID, Config.APP_KEY, Config.APP_SITE);
 
         // Try to login with Stored Credentials if there's user sign up/in to Kii Cloud.
         KiiUser.loginWithStoredCredentials(new KiiCallback<KiiUser>() {

@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Kii.initialize(this, "9ab34d8b", "7a950d78956ed39f3b0815f0f001b43b", Kii.Site.JP);
+        Kii.initialize(this.getApplicationContext(), Config.APP_ID, Config.APP_KEY, Config.APP_SITE);
 
         Button loginButton = (Button) findViewById(R.id.loginButton);
         final TextView messageText = (TextView) findViewById(R.id.messageText);
